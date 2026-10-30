@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="722" viewBox="0 0 960 722" role="img" aria-label="Sai Nimisha Kakarla: career timeline">
+<title>Sai Nimisha Kakarla: career timeline</title>
+<style>
+/* Elements start hidden and animate in, so reduced motion must jump to the end state. */
+text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+.fade { opacity: 0; animation: fade .8s ease-out .2s forwards; }
+.track { stroke-dasharray: 546; stroke-dashoffset: 546; animation: draw 2.35s ease-in-out .3s forwards; }
+.m { opacity: 0; animation: pop .5s ease-out forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes fade { to { opacity: 1; } }
+@keyframes pop { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; transform: none !important; }
+}
+</style>
+<text x="0" y="76" font-size="46" font-weight="800" fill="#e6edf3">Sai Nimisha Kakarla</text>
+<text class="fade" x="0" y="112" font-size="19" fill="#8b949e">Senior Data Analyst</text>
+<line class="track" x1="150" y1="168" x2="150" y2="714" stroke="#f2cc60" stroke-width="3" stroke-linecap="round"/>
+<g class="m" style="animation-delay:0.40s">
+<text x="124" y="198" text-anchor="end" font-size="20" font-weight="800" fill="#f2cc60">2023</text>
+<circle cx="150" cy="192" r="10" fill="#f2cc60" stroke="#f2cc60" stroke-width="3"/>
+<rect x="186" y="168" width="766" height="96" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="206" y="198" font-size="17" font-weight="700" fill="#e6edf3">Data Analyst</text>
+<text x="932" y="198" text-anchor="end" font-size="13" fill="#8b949e">Apr 2023 – Present</text>
+<text x="206" y="222" font-size="15" font-weight="600" fill="#f2cc60">Neiman Marcus Groups</text>
+<text x="206" y="248" font-size="15" fill="#e6edf3">Unified 7 retail sources into one PostgreSQL warehouse</text>
+</g>
+<g class="m" style="animation-delay:0.75s">
+<text x="124" y="316" text-anchor="end" font-size="20" font-weight="800" fill="#8b949e">2022</text>
+<circle cx="150" cy="310" r="7" fill="#0d1117" stroke="#f2cc60" stroke-width="3"/>
+<rect x="186" y="286" width="766" height="96" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="206" y="316" font-size="17" font-weight="700" fill="#e6edf3">Data Analyst</text>
+<text x="932" y="316" text-anchor="end" font-size="13" fill="#8b949e">Oct 2022 – Mar 2023</text>
+<text x="206" y="340" font-size="15" font-weight="600" fill="#f2cc60">Baylor Scott &amp; White</text>
+<text x="206" y="366" font-size="15" fill="#e6edf3">Delivered claims analytics tracking denials and payment discrepancies</text>
+</g>
+<g class="m" style="animation-delay:1.10s">
+<text x="124" y="434" text-anchor="end" font-size="20" font-weight="800" fill="#8b949e">2020</text>
+<circle cx="150" cy="428" r="7" fill="#0d1117" stroke="#f2cc60" stroke-width="3"/>
+<rect x="186" y="404" width="766" height="96" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="206" y="434" font-size="17" font-weight="700" fill="#e6edf3">Jr Data Analyst</text>
+<text x="932" y="434" text-anchor="end" font-size="13" fill="#8b949e">Jun 2020 – May 2022</text>
+<text x="206" y="458" font-size="15" font-weight="600" fill="#f2cc60">Relevance lab</text>
+<text x="206" y="484" font-size="15" fill="#e6edf3">Reduced delivery time by 25% and automated 9 hours/week of manual work</text>
+</g>
+<g class="m" style="animation-delay:1.45s">
+<text x="124" y="552" text-anchor="end" font-size="20" font-weight="800" fill="#8b949e">2019</text>
+<circle cx="150" cy="546" r="7" fill="#0d1117" stroke="#f2cc60" stroke-width="3"/>
+<rect x="186" y="522" width="766" height="96" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="206" y="552" font-size="17" font-weight="700" fill="#e6edf3">Data Analyst Intern</text>
+<text x="932" y="552" text-anchor="end" font-size="13" fill="#8b949e">Aug 2019 – May 2020</text>
+<text x="206" y="576" font-size="15" font-weight="600" fill="#f2cc60">Kone</text>
+<text x="206" y="602" font-size="15" fill="#e6edf3">Cleaned operational data in Excel and SQL</text>
+</g>
+<g class="m" style="animation-delay:1.80s">
+<text x="124" y="670" text-anchor="end" font-size="20" font-weight="800" fill="#8b949e">2015</text>
+<circle cx="150" cy="664" r="7" fill="#0d1117" stroke="#f2cc60" stroke-width="3"/>
+<rect x="186" y="640" width="766" height="74" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="206" y="670" font-size="17" font-weight="700" fill="#e6edf3">MTech Integrated in Software Engineering</text>
+<text x="932" y="670" text-anchor="end" font-size="13" fill="#8b949e">Graduated 2015</text>
+<text x="206" y="694" font-size="15" font-weight="600" fill="#f2cc60">VIT University</text>
+
+</g>
+</svg>
