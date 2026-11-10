@@ -57,7 +57,7 @@ text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', 
 <circle cx="150" cy="664" r="7" fill="#ffffff" stroke="#bf8700" stroke-width="3"/>
 <rect x="186" y="640" width="766" height="74" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
 <text x="206" y="670" font-size="17" font-weight="700" fill="#1f2328">MTech Integrated in Software Engineering</text>
-<text x="932" y="670" text-anchor="end" font-size="13" fill="#59636e">Graduated 2015</text>
+<text x="932" y="670" text-anchor="end" font-size="13" fill="#59636e">Jun 2015 – Jun 2020</text>
 <text x="206" y="694" font-size="15" font-weight="600" fill="#bf8700">VIT University</text>
 
 </g>

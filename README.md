@@ -5,9 +5,20 @@
 
 ## The story so far
 
-At a healthcare system I delivered claims analytics tracking turnaround time, denials, and payment discrepancies. Over **6+ years** at Neiman Marcus I unified **7 sources**—OMS, POS, product master, marketplace reconciliation, marketing, customer, and inventory—into one PostgreSQL warehouse.
+I started out cleaning operational data at Kone, then spent two years at Relevance Lab on supply-chain analytics, where shipment analysis cut delivery time by **25%** and automated pipelines saved about **9 hours of manual work per week**. At Baylor Scott & White I delivered healthcare claims analytics tracking turnaround time, denials and payment discrepancies.
 
-I design fact and dimension models with slowly changing dimensions and define KPIs with stakeholders. I automate data-quality checks in Python, diagnose slow SQL with `EXPLAIN ANALYZE`, and deliver Tableau dashboards with parameters and drill-downs. I lead validation and UAT for every KPI and maintain code in Git with documented schemas and lineage.
+Since April 2023 at Neiman Marcus Group, I have unified **7 sources** (OMS, POS, product master, marketplace reconciliation, marketing, customer and inventory) into one PostgreSQL warehouse.
+
+I design fact and dimension models with slowly changing dimensions and define KPIs with finance, merchandising and marketing. I automate data-quality checks in Python, diagnose slow SQL with `EXPLAIN ANALYZE`, and deliver Tableau dashboards with parameters and drill-downs. I lead validation and UAT for every KPI and maintain code in Git with documented schemas and lineage.
+
+## Experience
+
+| Role | Company | Dates | Highlights |
+|------|---------|-------|------------|
+| **Data Analyst** | Neiman Marcus Group · Dallas, TX | Apr 2023 – Present | 7-source PostgreSQL warehouse, star schema with SCDs, **20+ KPIs**, ~**50%** faster dashboard refresh |
+| **Data Analyst** | Baylor Scott & White · Irving, TX | Oct 2022 – Mar 2023 | Claims KPIs (volume, turnaround, denials, payment discrepancies), Python data-quality scripts, weekly Tableau reporting |
+| **Jr Data Analyst** | Relevance Lab · Bengaluru, India | Jun 2020 – May 2022 | **25%** shorter delivery time, ~**9 hrs/week** automated, API ingestion into Delta Lake on AWS S3 |
+| **Data Analyst Intern** | Kone · Chennai, India | Aug 2019 – May 2020 | Cleaned and standardized operational data in Excel and SQL; monthly trend reporting |
 
 ## Milestone work
 
@@ -29,18 +40,23 @@ I partnered with stakeholders to define **20+ KPIs** and delivered Tableau dashb
 
 </details>
 
+## Toolkit
+
+- **SQL & databases:** PostgreSQL, CTEs, window functions, query tuning, `EXPLAIN ANALYZE`, indexing
+- **Python:** pandas, NumPy, boto3, data profiling, workflow automation
+- **Modeling & cloud:** ETL/ELT, star schema, fact/dimension design, slowly changing dimensions, Delta Lake, AWS S3, EC2
+- **BI:** Tableau (calculated fields, parameters, interactive dashboards), Excel, KPI reporting
+- **Analytics:** KPI design, hypothesis testing, segmentation, trend and root-cause analysis
+- **Data quality:** completeness, duplicate and integrity checks, source reconciliation, UAT test design
+- **Domains:** retail and e-commerce, marketplace, inventory, returns, healthcare claims, supply chain
+
 ## Credentials
 
-- **MTech Integrated, Software Engineering** – VIT University, *June 2015 – June 2020*
-
-@@
-
-## What's next
-
-[Email](mailto:nimmishareddy@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nimisha-reddy-810a84141) · [GitHub](https://github.com/Nimisharani)
+- **MTech Integrated, Software Engineering** – VIT University, Chennai, *June 2015 – June 2020*
 
 ## Projects
 
+- [retail-analytics-customer-segmentation](https://github.com/Nimisharani/retail-analytics-customer-segmentation) — Customer purchasing behavior, seasonal sales trends and category performance from retail transactions, turned into revenue, targeting and inventory recommendations.
 - [marginbridge](https://github.com/Nimisharani/marginbridge) — A price-volume-mix margin bridge plus elasticity estimated against discount confounding, scored against a synthetic ground truth so the pricing advice is not…
 - [upliftpolicy](https://github.com/Nimisharani/upliftpolicy) — Retention targeting by uplift rather than churn propensity, with Qini curves and doubly-robust policy evaluation that surfaces customers contact drives away.
 - [consentgraph](https://github.com/Nimisharani/consentgraph) — Identity resolution where per-purpose consent gates the graph join itself, with match quality measured as precision against planted ground truth and a…
@@ -51,3 +67,9 @@ I partnered with stakeholders to define **20+ KPIs** and delivered Tableau dashb
 - [ratevault](https://github.com/Nimisharani/ratevault) — A motor insurance quote engine with bitemporal rate tables, so any past quote reprices exactly using the rates and rules in force at the time, with a live…
 - [pickpath](https://github.com/Nimisharani/pickpath) — An offline-first warehouse picking PWA where reconnect conflicts become supervisor exception tasks instead of silently overwritten picks.
 - [lastknowngood](https://github.com/Nimisharani/lastknowngood) — A backup recovery drill harness that measures real RTO and RPO by running restores and tests backup immutability by attempting deletion in a sealed lab.
+
+## Let's connect
+
+Looking for an analyst who turns multi-source data into KPIs teams trust? Reach out by email or connect on LinkedIn.
+
+[Portfolio](https://sairani.com) · [Resume](https://sairani.com/assets/files/sai-kakarla-resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nimisha-reddy-810a84141) · [Email](mailto:nimmishareddy@gmail.com) · [GitHub](https://github.com/Nimisharani)
